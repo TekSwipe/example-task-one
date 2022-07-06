@@ -1,0 +1,31 @@
+.boxContainer {
+  padding: 20px;
+  display: flex;
+}
+
+.boxOne {
+  background-color: #222;
+  width: 40%;
+  height: 270px;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.boxesTwoContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 270px;
+  max-height: 270px;
+}
+
+.boxTwo {
+  background-color: #222;
+  height: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.boxTwo:last-child {
+  margin-bottom: 0;
+}
